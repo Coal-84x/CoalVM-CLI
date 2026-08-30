@@ -18,10 +18,6 @@ systems except Windows because it can potentially hurt the source file. Every co
 /CLI_IMPORT allows user to import a built-in library into scope.
 ### /CLI_VERSION;
 /CLI_VERSION allows user to display patches and features added in COALVM-CLI.
-### /CLI_GENERATION;
-/CLI_GENERATIONS requires /CLI_GENSYS library in order to generate random ID.
-### /CLI_FILE;
-/CLI_FILE requires /CLI_FILESYS library in order to access towards filesystems.
 ### /CLI_CLEAR;
 /CLI_CLEAR allows user to clear the interface texts.
 
@@ -33,6 +29,8 @@ systems except Windows because it can potentially hurt the source file. Every co
 /CLI_SET_FILE allows user to create a file, requires /CLI_FILESYS library in order to create a file.
 ### /CLI_SEARCH_FILE;
 /CLI_SEARCH_FILE allows user to search for a file, requires /CLI_FILESYS in order to scan for a file.
+### /CLI_REMOVE_FILE;
+/CLI_REMOVE_FILE allows user to remove a certain file, requires /CLI_FILESYS in order to remove a file and safety precaution.
 ## COALVM-CLI GENSYS Commands
 ### /CLI_GENERATION
 /CLI_GENERATION allows user to create a randomized ID..
