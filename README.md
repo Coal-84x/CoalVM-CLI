@@ -8,7 +8,7 @@ COALVM-CLI has a variations of commands that determines how you use it by intera
 systems except Windows because it can potentially hurt the source file. Every commands were extremely abstracted under the hood while you're in overall control.
 ## COALVM-CLI Default Commands
 
-### /CLI_HELP;
+### /CLI_HELP; || /CLI; || /CLI_; || /?;
 /CLI_HELP allows user to display a lists of available commands and instructions how to use it, this is incredibly helpful for references.
 ### /CLI_EXIT;
 /CLI_EXIT allows user to exit program safely.
@@ -29,12 +29,16 @@ systems except Windows because it can potentially hurt the source file. Every co
 /CLI_SET_FILE allows user to create a file, requires /CLI_FILESYS library in order to create a file.
 ### /CLI_SEARCH_FILE;
 /CLI_SEARCH_FILE allows user to search for a file, requires /CLI_FILESYS in order to scan for a file.
-### /CLI_REMOVE_FILE;
-/CLI_REMOVE_FILE allows user to remove a certain file, requires /CLI_FILESYS in order to remove a file and safety precaution.
 ## COALVM-CLI GENSYS Commands
 ### /CLI_GENERATION
-/CLI_GENERATION allows user to create a randomized ID..
-
+/CLI_GENERATION allows user to create a randomized ID.
+### /CLI_GENERATION64
+Alternative version of /CLI_GENERATION with larger number set.
+## COALVM-CLI ANSISYS Commands
+### /CLI_WRITE_ANSI;
+Allows user to display text with color sequences
+### /CLI_COLOR_SEQUENCE
+Display instructions of color sequences.
 
 
 Thank you for supporting our hardwork! ~ Coal-84x
