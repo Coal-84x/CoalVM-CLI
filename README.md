@@ -21,19 +21,21 @@ systems except Windows because it can potentially hurt the source file. Every co
 ### /CLI_GENERATION;
 /CLI_GENERATIONS requires /CLI_GENSYS library in order to generate random ID.
 ### /CLI_FILE;
-/CLI_FILE requires /CLI_FILESYS library in order to access towards filesystems
+/CLI_FILE requires /CLI_FILESYS library in order to access towards filesystems.
+### /CLI_CLEAR;
+/CLI_CLEAR allows user to clear the interface texts.
 
 ## COALVM-CLI KERNELSYS Commands
 ### /CLI_GET_KERNEL
 /CLI_GET_KERNEL allows user to display user current OS/KERNELS, requires /CLI_KERNELSYS library in order to detect an OS.
 ## COALVM-CLI FILESYS Commands
 ### /CLI_SET_FILE;
-/CLI_SET_FILE allows user to create a file, requires /CLI_FILESYS library in order to create a file
+/CLI_SET_FILE allows user to create a file, requires /CLI_FILESYS library in order to create a file.
 ### /CLI_SEARCH_FILE;
-/CLI_SEARCH_FILE allows user to search for a file, requires /CLI_FILESYS in order to scan for a file
+/CLI_SEARCH_FILE allows user to search for a file, requires /CLI_FILESYS in order to scan for a file.
 ## COALVM-CLI GENSYS Commands
 ### /CLI_GENERATION
-/CLI_GENERATION allows user to create a randomized ID.
+/CLI_GENERATION allows user to create a randomized ID..
 
 
 
