@@ -1,3 +1,5 @@
+MIT-LIENCE (M) Coalvm-CLI. All Rights Reserved.
+
 # COALVM-CLI, OFFICIAL RELEASE 1.3.2
 Coalvm is a custom-made interpreted command-line interface built inside C++ specifically to abstract heavy concepts, disclaimer that this repo is under MIT LICENSE and we're not responsible for any internal or system damage.
 Coalvm is currently under heavy development and was in a very rough / alpha states and constants updates. Expect some bugs lurking in the corner of binaries.
