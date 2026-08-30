@@ -1,15 +1,17 @@
 MIT-LIENCE (M) Coalvm-CLI. All Rights Reserved.
 
 # COALVM-CLI, LATEST RELEASE 1.3.3
+|
 Coalvm is a custom-made interpreted command-line interface built inside C++ specifically to abstract heavy concepts, disclaimer that this repo is under MIT LICENSE and we're not responsible for any internal or system damage.
 Coalvm is currently under heavy development and was in a very rough / alpha states and constants updates. Expect some bugs lurking in the corner of binaries.
-
+|
+|
 ## COALVM-CLI Commands
-
+|
 COALVM-CLI has a variations of commands that determines how you use it by interacting with your computer available systems, COALVM-CLI currently only supports Windows Kernel and we don't recommend you to use any operating
 systems except Windows because it can potentially hurt the source file. Every commands were extremely abstracted under the hood while you're in overall control.
 ## COALVM-CLI Default Commands
-
+|
 ### /CLI_HELP; || /CLI; || /CLI_; || /?;
 /CLI_HELP allows user to display a lists of available commands and instructions how to use it, this is incredibly helpful for references.
 ### /CLI_EXIT;
@@ -22,8 +24,10 @@ systems except Windows because it can potentially hurt the source file. Every co
 /CLI_VERSION allows user to display patches and features added in COALVM-CLI.
 ### /CLI_CLEAR;
 /CLI_CLEAR allows user to clear the interface texts.
-
+|
+|
 ## COALVM-CLI KERNELSYS Commands
+|
 ### /CLI_GET_KERNEL;
 /CLI_GET_KERNEL allows user to display user current OS/KERNELS, requires /CLI_KERNELSYS library in order to detect an OS.
 ## COALVM-CLI FILESYS Commands
@@ -41,6 +45,8 @@ Alternative version of /CLI_GENERATION with larger number set.
 Allows user to display text with color sequences
 ### /CLI_COLOR_SEQUENCE;
 Display instructions of color sequences.
-
-
+|
+|
+|
+|
 Thank you for supporting our hardwork! ~ Coal-84x
