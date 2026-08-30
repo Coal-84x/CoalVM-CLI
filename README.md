@@ -35,4 +35,6 @@ systems except Windows because it can potentially hurt the source file. Every co
 ### /CLI_GENERATION
 /CLI_GENERATION allows user to create a randomized ID.
 
-Thank you for your support ~ Coal-84x
+
+
+Thank you for supporting our hardwork! ~ Coal-84x
