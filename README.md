@@ -1,6 +1,6 @@
 MIT-LIENCE (M) Coalvm-CLI. All Rights Reserved.
 
-# COALVM-CLI, LATEST RELEASE 1.6.4
+# COALVM-CLI, LATEST RELEASE 1.7.0
 
 Coalvm is a custom-made interpreted command-line interface built inside C++ specifically to abstract heavy concepts, disclaimer that this repo is under MIT LICENSE and we're not responsible for any internal or system damage.
 Coalvm is currently under heavy development and was in a very rough / alpha states and constants updates. Expect some bugs lurking in the corner of binaries.
@@ -23,6 +23,11 @@ systems except Windows because it can potentially hurt the source file. Every co
 /CLI_VERSION allows user to display patches and features added in COALVM-CLI.
 ### /CLI_CLEAR;
 /CLI_CLEAR allows user to clear the interface texts.
+### *cli
+*cli allows user to scope the current pointer variable value, for example ->
+
+<img width="782" height="476" alt="image" src="https://github.com/user-attachments/assets/1d5833c0-4585-4f3e-acd5-24c6c3edb7b0" />
+
 
 ## COALVM-CLI KERNELSYS Commands
 ### /CLI_GET_KERNEL;
