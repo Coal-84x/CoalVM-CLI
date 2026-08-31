@@ -29,9 +29,9 @@ systems except Windows because it can potentially hurt the source file. Every co
 /CLI_GET_KERNEL allows user to display user current OS/KERNELS, requires /CLI_KERNELSYS library in order to detect an OS.
 ### /CLI_ALLOC;
 /CLI_STORE_VALUE allows user to store a value inside a built-in variable, requires /CLI_KERNELSYS library in order to detect an OS.
-### /CLI_POINT_TO_VALUE;
+### /CLI_POINT_TOWARDS_VALUE;
 /CLI_POINT_TO_VALUE allows user to display the variable value of the pointer points to but dereferencing the pointer.
-### /CLI_POINT_TO_ADDRESS;
+### /CLI_POINT_TOWARDS_ADDRESS;
 /CLI_POINT_TO_ADDRESS allows user to to display the address of the variable by pointing the pointer into the address
 ### /CLI_SET_TO_NULLPTR;
 /CLI_SET_TO_NULLPTR allows user to clean the NULLPTR (very important if you want to re-assign the pointer variable values)
