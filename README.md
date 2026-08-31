@@ -27,7 +27,7 @@ systems except Windows because it can potentially hurt the source file. Every co
 ## COALVM-CLI KERNELSYS Commands
 ### /CLI_GET_KERNEL;
 /CLI_GET_KERNEL allows user to display user current OS/KERNELS, requires /CLI_KERNELSYS library in order to detect an OS.
-### /CLI_STORE_VALUE;
+### /CLI_ALLOC;
 /CLI_STORE_VALUE allows user to store a value inside a built-in variable, requires /CLI_KERNELSYS library in order to detect an OS.
 ### /CLI_POINT_TO_VALUE;
 /CLI_POINT_TO_VALUE allows user to display the variable value of the pointer points to but dereferencing the pointer.
