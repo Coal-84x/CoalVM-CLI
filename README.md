@@ -1,6 +1,6 @@
 MIT-LIENCE (M) Coalvm-CLI. All Rights Reserved.
 
-# COALVM-CLI, LATEST RELEASE 1.3.3
+# COALVM-CLI, LATEST RELEASE 1.5.0
 
 Coalvm is a custom-made interpreted command-line interface built inside C++ specifically to abstract heavy concepts, disclaimer that this repo is under MIT LICENSE and we're not responsible for any internal or system damage.
 Coalvm is currently under heavy development and was in a very rough / alpha states and constants updates. Expect some bugs lurking in the corner of binaries.
@@ -27,6 +27,14 @@ systems except Windows because it can potentially hurt the source file. Every co
 ## COALVM-CLI KERNELSYS Commands
 ### /CLI_GET_KERNEL;
 /CLI_GET_KERNEL allows user to display user current OS/KERNELS, requires /CLI_KERNELSYS library in order to detect an OS.
+### /CLI_STORE_VALUE;
+/CLI_STORE_VALUE allows user to store a value inside a built-in variable, requires /CLI_KERNELSYS library in order to detect an OS.
+### /CLI_POINT_TO_VALUE;
+/CLI_POINT_TO_VALUE allows user to display the variable value of the pointer points to but dereferencing the pointer.
+### /CLI_POINT_TO_ADDRESS;
+/CLI_POINT_TO_ADDRESS allows user to to display the address of the variable by pointing the pointer into the address
+### /CLI_SET_TO_NULLPTR;
+/CLI_SET_TO_NULLPTR allows user to clean the NULLPTR (very important if you want to re-assign the pointer variable values)
 ## COALVM-CLI FILESYS Commands
 ### /CLI_SET_FILE;
 /CLI_SET_FILE allows user to create a file, requires /CLI_FILESYS library in order to create a file.
