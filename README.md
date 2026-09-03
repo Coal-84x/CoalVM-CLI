@@ -57,6 +57,6 @@ Allows user to display text with color sequences
 Display instructions of color sequences.
 
 
-
+# NO LONGER USABLE!
 
 Thank you for supporting our hardwork! ~ Coal-84x
